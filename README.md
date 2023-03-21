@@ -2,23 +2,23 @@
 
 <h3 align="center">머신러닝을 활용한 착좌 감지 시스템</h3>
 
-<p align="center">
-	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHiHoi%2FCanISit&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
-	<img alt="GitHub" src="https://img.shields.io/github/license/HiHoi/CanISit">
-</p>
-
 > 이 프로젝트는 42 서울에서 개최한 2023년도 코알리숑 해커톤에서 만들었습니다. 
 >(해커톤에 힘써주신 관계자 분들과 수고해주신 자원봉자사분들께 다시 한번 감사드립니다.)
 
+<br>
+
 ## <목차>
 1. 개요
-* 프로젝트 명과 간단한 설명
+* 프로젝트명
+* 해결하고자 하는 문제상황
 * 프로젝트 목적
+* 해결 방안
 2. 설계
 * 사용한 기술과 도구
 * API 명세
 3. Catalog
-4. 정리 노션
+4. 사용 방법
+5. 정리 노션
 <hr/>
 
 ## 1. 개요
@@ -40,6 +40,8 @@
 
 ### 해결 방안
 - 이미지 분석을 통해 빈의자, 사용중인 의자를 판단하여 정보 제공 
+
+<br><br>
 
 ## 2. 설계
 ### 사용한 기술과 도구
@@ -82,9 +84,12 @@ response = {
 }	
 ```
 
+<br><br>
+
 ## 3. Catalog
 !["Catalog"](./catalog_CanISit.jpg)
 
+<br><br>
 
 ## 4. 사용 방법
 1. front_server
@@ -101,6 +106,8 @@ ultralytics package는 **curr <= Python 3.9** 가 필요합니다.
 pip install -r requirments.txt
 python main.py
 ```
+
+<br><br>
 
 ## 5. 정리 노션
 <https://helpful-eggplant-ec3.notion.site/2023-03-9a802edd9c84421083e4bbc3e0be3bc7>
